@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  app:
+    build: .
+    tty: true
+    ports:
+      - 3070:3070
+    volumes:
+      - .:/app
